@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
 import { Avatar } from '@mui/material'
 
-import Avatarimg from '../../asset/Avatar.jpg'
+
 const Menu = () => (
   <>
     <div className="flex flex-col justify-center w-full p-2 space-y-2 sm:hidden bounce-in-fwd">
@@ -85,7 +85,7 @@ function Header() {
 
             <Avatar
               alt="Remy Sharp"
-              src={Avatarimg}
+              src=''
               sx={{ width: 42, height: 42 }}
               className=" border-solid border-2 border-red-500 cursor-pointer "
             />
@@ -93,7 +93,7 @@ function Header() {
           <div className="hidden sm:flex md:hidden lg:hidden">
             <Avatar
               alt="Remy Sharp"
-              src={Avatarimg}
+              src=''
               sx={{ width: 56, height: 56 }}
               className=" border-solid border-2 border-red-500 cursor-pointer "
             />
